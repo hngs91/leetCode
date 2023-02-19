@@ -12,4 +12,4 @@ function rand5() {
   }
 }
 
-console.log(rand7());
+console.log(rand5());
