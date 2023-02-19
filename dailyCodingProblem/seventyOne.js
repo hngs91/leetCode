@@ -4,9 +4,9 @@ function rand7() {
 
 function rand5() {
   let result = rand7();
-  
+
   if (result > 5) {
-    result = rand7();
+    return rand5();
   } else {
     return result;
   }
